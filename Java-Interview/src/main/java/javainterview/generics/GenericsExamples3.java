@@ -1,9 +1,10 @@
 package javainterview.generics;
 
+import java.util.ArrayList;
 import java.util.List;
 
 class MyList {
-	private List<String> values;
+	private List<String> values = new ArrayList<>();
 
 	void add(String value) {
 		values.add(value);
@@ -15,7 +16,7 @@ class MyList {
 }
 
 class MyListGeneric<T> {
-	private List<T> values;
+	private List<T> values = new ArrayList<>();
 
 	void add(T value) {
 		values.add(value);
@@ -31,7 +32,7 @@ class MyListGeneric<T> {
 }
 
 class MyListRestricted<T extends Number> {
-	private List<T> values;
+	private List<T> values = new ArrayList<>();
 
 	void add(T value) {
 		values.add(value);

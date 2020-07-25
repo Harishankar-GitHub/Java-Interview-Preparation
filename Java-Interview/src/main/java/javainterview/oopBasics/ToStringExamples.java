@@ -9,7 +9,7 @@ class Animal {
 
 	String name;
 	String type;
-	
+		
 	@Override
 	public String toString() {
 		return "Animal [name=" + name + ", type=" + type + "]";
@@ -21,7 +21,12 @@ class Animal {
 	// Recommended format is using "String.format" code style.
 	// Because, when String Concatenation is used, it creates multiple objects which may
 	// lead to performance issue.
-	// We can overcome the above issue when we use "String.format" code style. 
+	// We can overcome the above issue when we use "String.format" code style.
+	
+//	@Override
+//	public String toString() {
+//		return String.format("Animal [name=%s, type=%s]", name, type);
+//	}
 }
 
 public class ToStringExamples {

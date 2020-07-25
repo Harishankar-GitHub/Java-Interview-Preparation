@@ -37,6 +37,20 @@
 	
 ######	Some puzzles on conditions and loops
 
+## Operators
+
+######	Increment/Decrement
+######	InstanceOf Examples
+######	Logical Operators
+######	Relational Operators
+######	String Concatenation Examples
+######	Ternary Operators
+	
+## Files
+
+######  Console Examples
+######	File Examples
+
 ## Exception Handling
 
 ######	Exception Handling - try, catch and finallly
@@ -68,3 +82,18 @@
 ######	Compare and Swap, Locks and Atomic Operations
 
 ## Generics
+
+## Multithreading
+
+######	Multithreading - Need for Threads and Creating Threads
+######	Thread states, priority, ExecutorService and Callable
+######	Synchronization of threads, join, wait, notify and notifyAll methods
+	
+## Functional Programming - Lambda Expressions and Streams
+
+######	Functional Programming Examples - Streams and Lambda Expressions
+######	Functional Programming Questions and Answers
+	
+## Java New Features
+
+######	New Features of Java 5,6,7 and 8

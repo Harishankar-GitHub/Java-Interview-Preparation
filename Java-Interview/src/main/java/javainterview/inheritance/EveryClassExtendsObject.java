@@ -7,7 +7,7 @@ public class EveryClassExtendsObject {
 		// inherited from Object class
 		System.out.println(this.toString());
 		System.out.println(this.hashCode());
-		System.out.println(this.clone());
+//		System.out.println(this.clone());
 	}
 
 	public static void main(String[] args) throws CloneNotSupportedException {
@@ -21,6 +21,8 @@ public class EveryClassExtendsObject {
 
 		// equals method is inherited from Object class
 		System.out.println(example1.equals(example2));// false
+		
+		example1.testMethod();
 
 	}
 }
