@@ -93,6 +93,14 @@
 
 ######	Functional Programming Examples - Streams and Lambda Expressions
 ######	Functional Programming Questions and Answers
+
+## Other Topics
+
+######  Date and Calender
+######  Regex
+######  String and StringBuffer examples
+######  Variables
+######  Scope of variables
 	
 ## Java New Features
 
